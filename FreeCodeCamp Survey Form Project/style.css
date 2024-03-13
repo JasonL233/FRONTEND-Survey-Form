@@ -1,0 +1,75 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    color: #f5f6f7;
+    font-family: Tahoma;
+    font-size: 16px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.1)) ,url("images/background2.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+#title, #description {
+    text-align: center;
+    margin: 1em auto;
+}
+
+form {
+    width: 700px;
+    max-width: 1000px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+    background-color: #313158;
+    opacity: 0.95;
+}
+
+label {
+    display: block;
+}
+
+fieldset {
+    border: none;
+}
+
+#field1 > label {
+    margin: 1rem 0;
+}
+
+#field2 > label {
+    margin: 0.01rem 0;
+}
+
+input, textarea {
+    width: 100%;
+    margin: auto;
+    min-height: 2em;
+}
+
+select {
+    width: 101%;
+    min-height: 2em;
+}
+
+
+input[type="checkbox"] {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+} 
+
+input[type="radio"] {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 98%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #c8526d;
+}
